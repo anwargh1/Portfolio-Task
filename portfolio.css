@@ -882,9 +882,7 @@ nav ul li a {
     background-image: url('./Images/9f0502adb3d51a6c3ae6c4b5a2df1f23.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    z-index: -1;
     background-blend-mode: lighten;
-    /* قيمة شفافية الخلفية (قابلة للتعديل) */
     background-color: rgba(255, 255, 255, 0.5);
 
 }
