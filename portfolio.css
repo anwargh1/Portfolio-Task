@@ -1,0 +1,1114 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Amiri&family=Caveat&family=Caveat+Brush&family=Chewy&family=Pacifico&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&family=Rambla&family=Reem+Kufi&family=Reggae+One&family=Skranji&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+
+header {
+    /* background-color: #2c6c90; */
+    color: #000000;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    height: 9%;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 1;
+
+}
+
+header button a {
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Amiri';
+
+}
+
+header button {
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    border: none;
+    height: 60%;
+    font-size: 1em;
+    margin-top: 1%;
+    margin-right: 5%;
+    transition: transform 0.6s ease;
+
+}
+
+header button:hover {
+    background-color: #2463888e;
+    color: white;
+    transform: scale(1.1);
+
+
+}
+
+header button a:hover {
+    color: white;
+
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Chewy';
+    font-size: 1.6em;
+    color: #c80078;
+    letter-spacing: .1em;
+    /* margin-top: .1%; */
+}
+
+header h1 span {
+    margin: 0;
+    font-family: 'Chewy';
+    color: #ffffff;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+    font-family: 'Acme';
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    font-weight: 200;
+    transition: transform 0.6s ease;
+
+
+}
+
+nav ul li:hover {
+    transform: scale(1.2);
+}
+
+nav ul li a {
+    color: #c80078;
+    text-decoration: none;
+}
+
+.section {
+    background-image: url('./Images/68ec339dd66d8abacb77d89496ed3de6.jpg');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: 100% 100%;
+    height: 33em;
+    border-bottom: 1px solid #a6a4a4;
+
+
+}
+
+.section .one,
+.two,
+.three,
+.four {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border-radius: 100%;
+    top: 24%;
+
+}
+
+.section .one {
+    background-color: #2c6c90;
+    left: 8%;
+
+}
+
+.section .two {
+    background-color: #2c6c90;
+    left: 12%;
+}
+
+.section .three {
+    background-color: #2c6c90;
+    left: 16%;
+}
+
+.section .four {
+    background-color: #c80078;
+    left: 4%;
+}
+
+
+.section .one1,
+.two2,
+.three3,
+.four4 {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border-radius: 100%;
+    bottom: 8%;
+
+}
+
+.section .one1 {
+    background-color: #2c6c90;
+    right: 8%;
+
+}
+
+.section .two2 {
+    background-color: #2c6c90;
+    right: 12%;
+}
+
+.section .three3 {
+    background-color: #2c6c90;
+    right: 16%;
+}
+
+.section .four4 {
+    background-color: #c80078;
+    right: 4%;
+
+}
+
+.section1 {
+    background-color: #eaeaea7a;
+    padding: .5rem 3em;
+    height: 32em;
+    position: relative;
+    border-bottom: 1px solid #a6a4a4;
+    background: linear-gradient(rgba(228, 228, 228, 0.36) 0%, rgba(222, 220, 255, 0.46) 30%, rgba(96, 125, 139, 0.172) 100%, rgb(96 125 139 / 61%) 100%);
+    z-index: -1;
+
+
+}
+
+.containor {
+    display: flex;
+}
+
+.containor .one {
+    margin-right: 13%;
+}
+
+.section1 div img {
+    height: 70%;
+    width: 100%;
+    z-index: 0;
+    position: relative;
+    left: 5%;
+    bottom: 2%;
+
+
+}
+
+.background-img {
+    z-index: -1;
+    background-color: #2c6b9076;
+    height: 65%;
+    width: 36%;
+    position: absolute;
+    left: 4%;
+    bottom: 10%;
+
+}
+
+.hr-bettwen-div {
+    height: 23rem;
+    width: .1rem;
+    background-color: #2c6b90;
+    position: absolute;
+    bottom: 10%;
+    left: 45%;
+}
+
+.containor .one hr {
+    height: .12rem;
+    width: 20rem;
+    background-color: #2c6c90;
+    position: absolute;
+    bottom: 3%;
+    left: 17.5%;
+}
+
+.containor .one h2 {
+    color: #2c6c90;
+    text-align: end;
+    position: relative;
+    left: 7%;
+    letter-spacing: .5rem;
+    font-family: 'Reggae One', cursive;
+    top: -2%;
+
+}
+
+.containor .one h2 span {
+
+    color: #897F4F;
+    font-size: 1.7rem;
+
+}
+
+.containor .one1,
+.containor .two2,
+.containor .three3,
+.containor .four4 {
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    border-radius: 100%;
+    top: 7%;
+
+}
+
+.containor .one1 {
+    background-color: #2c6c90;
+    left: 8%;
+
+}
+
+.containor .two2 {
+    background-color: #2c6c90;
+    left: 12%;
+}
+
+.containor .three3 {
+    background-color: #2c6c90;
+    left: 16%;
+}
+
+.containor .four4 {
+    background-color: #897F4F;
+    left: 4%;
+}
+
+.right-side {
+    position: relative;
+    margin-top: 7%;
+    right: 5%;
+}
+
+.right-side div {
+    font-family: 'Rambla';
+    color: #232323;
+    background-color: #6b6b6b0e;
+    font-size: 1em;
+    padding: 2em 3em;
+    box-shadow: 1px 2px 0px 0px rgba(0, 0, 0, 0.112);
+    width: 28rem;
+    /* width: 60%; */
+}
+
+.section1 h1 {
+    color: #2c6c90;
+    font-family: 'Reggae One';
+    font-size: 2.55rem;
+    text-align: center;
+    letter-spacing: 1rem;
+}
+
+.section1 .one-right,
+.section1 .two-right,
+.section1 .three-right,
+.section1 .four-right {
+    width: .5rem;
+    height: .5rem;
+    position: absolute;
+    border-radius: 100%;
+    right: 2%;
+
+}
+
+.section1 .one-right {
+    background-color: #2c6c90;
+    bottom: 16%;
+
+}
+
+.section1 .two-right {
+    background-color: #2c6c90;
+    bottom: 24%;
+}
+
+.section1 .three-right {
+    background-color: #2c6c90;
+    bottom: 32%;
+}
+
+.section1 .four-right {
+    background-color: #897F4F;
+    bottom: 8%;
+}
+
+.section2 {
+    background-color: #eaeaea7a;
+    padding: .5rem 3em;
+    height: 25rem;
+    position: relative;
+    border-bottom: 1px solid #a6a4a4;
+    display: flex;
+    background-image: url('./Images/trining.jpg');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: 100% 100%;
+    background-blend-mode: lighten;
+    /* قيمة شفافية الخلفية (قابلة للتعديل) */
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+.display-skills-grid {
+    width: 65%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem 1rem;
+    height: fit-content;
+}
+
+.display-skills-flex {
+    display: flex;
+    margin-top: 4rem;
+    align-items: center;
+}
+
+.display-skills-flex img {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 2rem;
+    position: relative;
+}
+
+.display-skills-flex p {
+    width: 8rem;
+    font-family: 'Rambla';
+    color: #897f4fd3;
+    background-color: #e1e1e168;
+    padding: 1rem;
+    text-align: center;
+    font-weight: 600;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 2%;
+
+}
+
+.point-skills .one,
+.point-skills .two,
+.point-skills .three,
+.point-skills .four {
+    width: .5rem;
+    height: .5rem;
+    position: absolute;
+    border-radius: 100%;
+    top: 20%;
+
+}
+
+.point-skills .one {
+    background-color: #2c6c90;
+    right: 20%;
+    z-index: 1;
+
+
+}
+
+.point-skills .two {
+    background-color: #2c6c90;
+    right: 24%;
+    z-index: 1;
+
+}
+
+.point-skills .three {
+    background-color: #2c6c90;
+    right: 28%;
+    z-index: 1;
+}
+
+.point-skills .four {
+    background-color: #897F4F;
+    right: 32%;
+}
+
+.right-side-skills h1 {
+    color: #897F4F;
+    text-align: start;
+    position: relative;
+    left: 15%;
+    font-family: 'Reggae One', cursive;
+    top: 30%;
+    font-size: 3rem;
+}
+
+.right-side-skills h1 span {
+    color: #2c6c90;
+    text-align: start;
+    position: relative;
+    font-family: 'Reggae One', cursive;
+    top: 30%;
+    font-size: 4rem;
+    letter-spacing: 1rem;
+
+}
+
+.line {
+    width: 17rem;
+    height: .12rem;
+    background-color: #3F84AB;
+    position: relative;
+    top: 80%;
+    left: 18%;
+
+}
+
+.background {
+    width: 25%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #897f4f7e;
+}
+
+.section3 {
+    background-color: #eaeaea7a;
+    padding: .5rem 3em;
+    height: 33rem;
+    position: relative;
+    border-bottom: 1px solid #a6a4a4;
+    background: linear-gradient(rgba(228, 228, 228, 0.36) 0%, rgba(222, 220, 255, 0.46) 30%, rgba(96, 125, 139, 0.481) 100%, rgb(96 125 139 / 61%) 100%);
+
+    /* background-image: url('./Images/trining.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   z-index: -1;
+   background-blend-mode: lighten;
+ background-color: rgba(255, 255, 255, 0.5); */
+
+}
+
+
+.section3 h1 {
+    text-align: center;
+    color: #246388;
+    font-family: 'Reggae One';
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.section3 .one1,
+.section3 .two2,
+.section3 .three3,
+.section3 .four4,
+.section3 .five5,
+.section3 .six6,
+.section3 .seven7,
+.section3 .eight8 {
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    border-radius: 100%;
+    bottom: 2%;
+
+}
+
+.section3 .one1 {
+    background-color: #d1d8dc;
+    left: 71%;
+
+}
+
+.section3 .two2 {
+    background-color: #d1d8dc;
+    right: 68%;
+}
+
+.section3 .three3 {
+    background-color: #d1d8dc;
+    right: 60%;
+}
+
+.section3 .six6 {
+    background-color: #d1d8dc;
+    right: 52%;
+}
+
+.section3 .seven7 {
+    background-color: #d1d8dc;
+    right: 44%;
+}
+
+.section3 .eight8 {
+    background-color: #d1d8dc;
+    right: 36%;
+
+}
+
+.achievements-line {
+    background-color: #b4b4b4;
+    width: 30%;
+    height: .5%;
+    position: relative;
+    left: 35%;
+    top: -3%;
+}
+
+.display-achievements-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0rem 1rem;
+    height: fit-content;
+    margin-left: 8%;
+    margin-top: 1%;
+
+}
+
+.display-achievements-grid div {
+    background-color: #ffffff80;
+    width: 80%;
+    height: 85%;
+    box-sizing: border-box;
+    padding: .2rem .2rem .5rem .2rem;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+
+}
+
+.display-achievements-grid li {
+    margin-top: 1.5%;
+    position: absolute;
+    margin-left: .5%;
+
+}
+
+.display-achievements-grid p {
+    position: relative;
+    left: 5%;
+    font-family: 'Reem Kufi';
+    width: 90%;
+
+    padding: .2rem .2rem 0rem .2rem;
+
+
+
+}
+
+.display-achievements-grid img {
+    width: 100%;
+    height: 60%;
+}
+
+.section4 {
+    background-color: #F4F4F4;
+    padding: .5rem 3em;
+    height: 30rem;
+    position: relative;
+    border-bottom: 1px solid #a6a4a4;
+    background: linear-gradient(rgba(228, 228, 228, 0.36) 0%, rgba(222, 220, 255, 0.46) 30%,
+            rgb(96 125 139 / 35%) 100%, rgb(96 125 139 / 61%) 100%);
+    background-image: url('./Images/trining.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: -1;
+    background-blend-mode: lighten;
+    /* قيمة شفافية الخلفية (قابلة للتعديل) */
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+.section4 h1 {
+    position: absolute;
+    top: 62%;
+    left: 5%;
+    font-family: 'Reggae One', cursive;
+    color: #897F4F;
+    font-size: 2.3em;
+
+
+}
+
+.section4 h1 span {
+    color: #2c6b90;
+    letter-spacing: .3em;
+
+}
+
+.frontEnd img {
+    width: 25%;
+    height: 22%;
+    margin-right: 8%;
+    margin-top: 5%;
+
+
+}
+
+
+
+.frontEnd .display-img-flex,
+.backEnd .display-img-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.backEnd img {
+    width: 23%;
+    height: 20%;
+    margin-right: 13%;
+    margin-top: 2%;
+}
+
+.section4 .first {
+    width: .3%;
+    height: 60%;
+    background-color: #2c6b90;
+    position: absolute;
+    left: 2%;
+    bottom: 12%;
+
+}
+
+.section4 .second {
+    width: 30%;
+    height: .7%;
+    background-color: #2c6b90;
+    position: absolute;
+    right: 4%;
+    top: 8%;
+}
+
+.section4 .third {
+    width: .3%;
+    height: 60%;
+    background-color: #2c6b90;
+    position: absolute;
+    right: 2%;
+    top: 12%;
+}
+
+.section4 .fourth {
+    width: 30%;
+    height: .7%;
+    background-color: #2c6b90;
+    position: absolute;
+    left: 4%;
+    bottom: 8%;
+}
+
+
+.frontEnd {
+    position: absolute;
+    left: 25%;
+    top: 15%;
+    font-family: 'Reggae One', cursive;
+    width: 20%;
+}
+
+.frontEnd h2,
+.backEnd h2 {
+    width: 8rem;
+    color: #000000d3;
+    background-color: #e1e1e168;
+    padding: .5rem;
+    text-align: center;
+    font-weight: 600;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 10%;
+    font-size: 1.3em;
+
+}
+
+.frontEnd h2 {
+    margin-left: 18%;
+}
+
+.backEnd h2 {
+    margin-left: 24%;
+
+}
+
+
+.backEnd {
+    position: absolute;
+    left: 55%;
+    top: 15%;
+    font-family: 'Reggae One', cursive;
+    width: 30%;
+}
+
+.section4 .one1,
+.section4 .two2,
+.section4 .three3,
+.section4 .four4 {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border-radius: 100%;
+    bottom: 8%;
+
+}
+
+.section4 .one1 {
+    background-color: #2c6c90;
+    right: 8%;
+
+}
+
+.section4 .two2 {
+    background-color: #2c6c90;
+    right: 12%;
+}
+
+.section4 .three3 {
+    background-color: #2c6c90;
+    right: 16%;
+}
+
+.section4 .four4 {
+    background-color: #897F4F;
+    right: 4%;
+
+}
+
+
+.section5 {
+    background-color: #eaeaea7a;
+    padding: .5rem 3em;
+    height: 27rem;
+    position: relative;
+    border-bottom: 1px solid #a6a4a4;
+    background-image: url('./Images/trining.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-blend-mode: lighten;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.training-backgroundw {
+    background-color: #897f4f7d;
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+
+}
+
+.section5 h1 {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-family: 'Reggae One';
+    color: #2c6c90;
+    font-size: 2.3em;
+    letter-spacing: .1rem;
+}
+
+.training-line {
+    background-color: #246388;
+    height: .5%;
+    width: 3%;
+    position: absolute;
+    top: 12%;
+    left: 7%;
+}
+
+.section5 img {
+    position: absolute;
+    left: 23%;
+    width: 30%;
+    height: 70%;
+    top: 15%;
+}
+
+.training-p {
+    position: absolute;
+    left: 58%;
+    font-family: 'Reem Kufi';
+    top: 15%;
+
+}
+
+.training-p p {
+    background-color: #eaeaea92;
+    width: 75%;
+    padding: 1rem 2rem;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+
+
+
+}
+
+.section5 .one-right,
+.section5 .two-right,
+.section5 .three-right,
+.section5 .four-right {
+    width: .5rem;
+    height: .5rem;
+    position: absolute;
+    border-radius: 100%;
+    right: 2%;
+
+}
+
+.section5 .one-right {
+    background-color: #2c6c90;
+    bottom: 48%;
+
+}
+
+.section5 .two-right {
+    background-color: #2c6c90;
+    bottom: 56%;
+}
+
+.section5 .three-right {
+    background-color: #2c6c90;
+    bottom: 64%;
+}
+
+.section5 .four-right {
+    background-color: #897F4F;
+    bottom: 40%;
+}
+
+.section6 {
+    background-color: #eaeaea7a;
+    padding: .5rem 3em;
+    height: 25rem;
+    position: relative;
+    border-bottom: 1px solid #a6a4a4;
+    background-image: url('./Images/9f0502adb3d51a6c3ae6c4b5a2df1f23.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: -1;
+    background-blend-mode: lighten;
+    /* قيمة شفافية الخلفية (قابلة للتعديل) */
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+.section6 h2 {
+    margin-left: 5%;
+    font-family: 'Reggae One';
+    color: #897F4F;
+    font-size: 2em;
+    letter-spacing: .1rem;
+}
+
+.contactMe-line {
+    background-color: #246388;
+    height: .5%;
+    width: 3%;
+    position: absolute;
+    top: 14%;
+    left: 5%;
+}
+
+.contactMe-p {
+    position: absolute;
+    left: 10%;
+    font-family: 'Reem Kufi';
+    top: 25%;
+}
+
+.contactMe-p p {
+    /* background-color: #eaeaea50; */
+    width: 40%;
+    padding: .1rem 1rem;
+    /* box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); */
+
+}
+
+.section6 form {
+    position: absolute;
+    left: 50%;
+    top: 14%;
+    width: 40%;
+}
+
+input {
+    width: 100%;
+    height: 7vh;
+    margin-bottom: 5%;
+    background-color: #d9d9d953;
+    border: none;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+textarea {
+    width: 100%;
+    height: 25vh;
+    margin-bottom: 5%;
+    background-color: #d9d9d953;
+    border: none;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+
+
+}
+
+input::placeholder {
+    padding: 2%;
+    font-family: 'Reem Kufi';
+    color: #897F4F;
+
+}
+
+textarea::placeholder {
+    padding: 2%;
+    font-family: 'Reem Kufi';
+    color: #897F4F;
+
+}
+
+form button {
+    background-color: #c80078;
+    font-family: 'Reem Kufi';
+    color: white;
+    border: none;
+    padding: .5em;
+    position: relative;
+    left: 43%;
+    cursor: pointer;
+    transition: transform 0.6s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.section6 img {
+    width: 2.5%;
+    height: 2%;
+    position: relative;
+    margin-top: 16%;
+    left: 15%;
+    margin-left: 1%;
+    transition: transform 0.6s ease;
+}
+
+.section6 img:hover {
+    transform: scale(1.1);
+
+}
+
+
+.section h2 {
+    font-family: 'Reem Kufi';
+    font-size: 1.6em;
+    margin: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    top: 12.5rem;
+    font-weight: 300;
+    letter-spacing: .1rem;
+
+}
+
+.section h1 {
+    font-family: 'Reggae One';
+    font-size: 2.9rem;
+    letter-spacing: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    top: 10rem;
+    color: #3F84AB;
+
+}
+
+.section p {
+    font-family: 'Reem Kufi';
+    font-size: 1.5rem;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    top: 7.5rem;
+    letter-spacing: .1rem;
+
+
+}
+
+.section hr {
+    font-size: 1.2rem;
+    text-align: center;
+    position: relative;
+    top: 8rem;
+    height: .1rem;
+    background-color: #c80078;
+    width: 40%;
+
+}
+
+
+footer {
+    background-color: #333;
+    color: #ffffff9d;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Reggae One';
+
+}
+
+
+@media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav ul {
+      margin-top: 1rem;
+    }
+  
+    header button {
+      margin-top: 1rem;
+      margin-right: 0;
+    }
+  
+    section {
+      padding: 1rem;
+    }
+  
+    section h1 {
+      font-size: 1.5em;
+    }
+  
+    .display-skills-grid,
+    .display-achievements-grid,
+    .display-interests-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    header {
+      padding: 2rem;
+    }
+  
+    header h1 {
+      font-size: 2.5em;
+    }
+  
+    nav ul li {
+      font-size: 1.2em;
+    }
+  
+    section {
+      padding: 2rem;
+    }
+  
+    section h1 {
+      font-size: 3em;
+    }
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  section {
+    scroll-snap-align: start;
+  }
